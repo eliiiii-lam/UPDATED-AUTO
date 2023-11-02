@@ -95,14 +95,14 @@ public class redlong extends LinearOpMode {
         //TURN LEFT^^^
 
 
-        encoderDrive(DRIVE_SPEED,50, 50, 1.5);
+        encoderDrive(DRIVE_SPEED,60, 60, 1.5);
 
         //strafe LEFT
 
 
         strafe(DRIVE_SPEED, -26, 26, -26, 26, 1.5);
 
-        encoderDrive(DRIVE_SPEED, 40, 40, 1.5);
+        encoderDrive(DRIVE_SPEED, 38, 38, 1.5);
 
 
         telemetry.addData("Ending at", "%7d :%7d");
